@@ -1,0 +1,16 @@
+[package]
+name = "janalytics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+chrono = "0.4.30"
+colored = "2.0.4"
+dotenv = "0.15.0"
+ethers = "2.0.8"
+ethers-providers = "2.0.8"
+serde = "1.0.183"
+tokio = { version = "1", features = ["full"] }
